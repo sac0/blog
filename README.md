@@ -1,2 +1,2 @@
-# blog
-Grokking code, My experiments with Life
+# Blog
+Grokking code, My experiments with Life.
