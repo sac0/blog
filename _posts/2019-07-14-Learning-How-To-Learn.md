@@ -1,4 +1,3 @@
-# Learning How to Learn
 ### Types of Learning
 * Focused Learning
 * Diffused Leaning
