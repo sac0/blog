@@ -92,19 +92,21 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+
+# Site Author
 author:
   name             : "Sachin Govind"
   avatar           : "/assets/images/logo-face.jpg"
-  bio              : "Dabbling with code everyday and learning in the process"
+  bio              : "I am an amazing person."
   location         : "India"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:bssachingovind@gmail.com
+      url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://sachingovind.com"
+      url: "https://your-website.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/bssachingovind"
@@ -120,13 +122,10 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:bssachingovind@gmail.com
+      url:  mailto:bssachingovind@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sachingovind.com"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/bssachingovind"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sac0"
