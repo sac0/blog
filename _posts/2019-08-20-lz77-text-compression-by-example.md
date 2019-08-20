@@ -24,14 +24,23 @@ abracad|abrad|  <7,4,d> We stop at "abra" as soon as it matches at 7 chars back.
 *Please note that the above explanation is for illustrating purposes only. We do not search separately for each string. In a single iteration we take a greedy approach and find the largest subtring we can match by iterating one character back each time.*
 
 Dictionary size is 7 and buffer size is 5.
+
 The structure is Dictionary|Buffer| Remaining Stream.
+
 Lets use the string "abracadabrad". The characters in dictionary is 0 initially.
+
 |abrac|adabrad  <0,0,a>  //Dictionary size is 0, we output a the next character
+
 a|braca|dabrad  <0,0,b>  // move one pointer forward. output b
+
 ab|racad|abrad  <0,0,r>  //output r similarly.
+
 abr|acadabr|ad  <3,1,c> // finally we see some progess.A here matches a character three steps backward. 1 represents the length to copy after moving 3 steps backward.
+
 abrac|adabr|ad  <2,1,d> //though a repeats 2 times we choose the first occurence when we keep going back ward.
+
 abracad|abrad|  <7,4,d> // here we see a significant benefit. We can go back seven characters and get 4 characters _abra_ so 7 steps back and 4 steps forward is copied.
+
 abracadabrad|| //algorithm finishes here.
 
 There are some other variation to the **LZ77** algorithm. Changing the decoder to it is trivial. 
